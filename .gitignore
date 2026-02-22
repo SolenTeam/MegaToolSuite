@@ -1,0 +1,122 @@
+# ============================================
+#   MegaToolSuite
+# ============================================
+
+# --- Python ---
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+.eggs/
+*.egg
+MANIFEST
+
+# Installer artifacts
+*.whl
+*.tar.gz
+
+# Byte-compiled / optimized / DLL files
+*.so
+*.dylib
+*.dll
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+pytest_cache/
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# --- Logs ---
+*.log
+logs/
+install.log
+
+# --- Temporary files ---
+*.tmp
+*.temp
+*.bak
+*.swp
+*.swo
+
+# --- OS-specific ---
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Linux
+*~
+
+# --- IDE / Editor ---
+# VSCode
+.vscode/
+.history/
+
+# PyCharm / JetBrains
+.idea/
+*.iml
+
+# Sublime
+*.sublime-workspace
+*.sublime-project
+
+# --- Documentation ---
+docs/_build/
+docs/build/
+site/
+
+# --- Tools ---
+# Sphinx
+build/
+*.doctree
+
+# MkDocs
+site/
+
+# --- Node (se mai servisse per docs o UI) ---
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# --- Assets temporanei ---
+assets/tmp/
+assets/cache/
+
+# --- Pipenv ---
+Pipfile.lock
+
+# --- Poetry ---
+poetry.lock
+
+# --- Config locali ---
+config/local/
+config/*.local.yaml
+
+# --- Backup ---
+*.old
+*.backup
