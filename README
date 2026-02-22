@@ -1,0 +1,18 @@
+This installer downloads a ZIP file from a Git repository and extracts it into a folder of your choice.
+
+HOW TO RUN THE INSTALLER
+
+1. Open PowerShell.
+2. Navigate to the folder containing the installer:
+   cd "path\to\folder"
+3. Allow script execution for this session:
+   Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass
+4. Run the installer:
+   .\Install.ps1
+5. To specify a custom installation path:
+   .\Install.ps1 -InstallPath "C:\YourFolder"
+
+UNINSTALLING
+
+To remove the installed files, run:
+   .\Uninstall.ps1
